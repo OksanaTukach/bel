@@ -1,0 +1,144 @@
+.stars svg {
+  width: 45px;
+}
+
+.stars {
+  margin-top: 10px;
+}
+
+.stars polygon {
+  fill: #555554 !important;
+}
+
+.stars .active polygon {
+  fill: #ffc107 !important;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 25px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.name a {
+  font-weight: 800;
+  font-size: 16px;
+  color: #3643fc;
+  text-decoration: underline;
+}
+
+.name .rating {
+  font-weight: 800;
+  font-size: 14px;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.name .rating svg {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+.table {
+  border-bottom: 1px solid #555554;
+}
+
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.line.head {
+  font-size: 13px;
+}
+
+.zadacha {
+  width: 40%;
+  height: 50px;
+  text-align: center;
+  border-top: 1px solid #555554;
+  border-left: 1px solid #555554;
+  border-right: 1px solid #555554;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.data {
+  width: 25%;
+  height: 50px;
+  text-align: center;
+  border-top: 1px solid #555554;
+  border-right: 1px solid #555554;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mesto {
+  width: 35%;
+  height: 50px;
+  text-align: center;
+  text-align: center;
+  border-top: 1px solid #555554;
+  border-right: 1px solid #555554;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.two .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.two .title {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
