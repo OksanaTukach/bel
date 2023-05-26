@@ -1,5 +1,9 @@
 .stars svg {
-  width: 45px;
+  width: 35px;
+}
+
+body {
+  margin: 0;
 }
 
 .stars {
@@ -45,7 +49,17 @@
   font-weight: 800;
   font-size: 16px;
   color: #3643fc;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.body {
+  padding: 15px 10px;
 }
 
 .name .rating {
@@ -78,6 +92,10 @@
 
 .line.head {
   font-size: 13px;
+}
+
+.line.head div {
+  font-weight: 600;
 }
 
 .zadacha {
@@ -139,6 +157,24 @@
 }
 
 .two .title {
+  margin-top: 15px;
+}
+
+a:visited {
+  color: #3643fc;
+}
+
+.logo2 {
+  width: 50px;
+}
+
+.logo_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */

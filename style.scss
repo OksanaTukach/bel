@@ -1,5 +1,8 @@
 .stars svg {
-    width: 45px;
+    width: 35px;
+}
+body {
+    margin: 0;
 }
 .stars {
     margin-top: 10px;
@@ -32,7 +35,15 @@
     font-weight: 800;
     font-size: 16px;
     color: #3643fc;
-    text-decoration: underline;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 16px;
+}
+.body {
+    padding: 15px 10px;
 }
 .name .rating {
     font-weight: 800;
@@ -54,6 +65,9 @@
 }
 .line.head{
     font-size: 13px;
+}
+.line.head div {
+    font-weight: 600;
 }
 .zadacha {
     width: 40%;
@@ -96,4 +110,15 @@
     .title {
         margin-top: 15px;
     }
+}
+a:visited {
+    color: #3643fc;
+}
+.logo2 {
+    width: 50px;
+}
+.logo_cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
